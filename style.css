@@ -1,27 +1,26 @@
-body {
-    margin: 0;
-    padding: 0;
+/* *{ */
+    /* margin: 0; */
+    /* padding: 0; */
+/* } */
+body{
+    /* background-color: aqua; */
+    font-size: 2.5rem;
+}
+p{
+    background-color: gray;
+    width: 50%;
+    margin: 100px 50px;
+    
 }
 
-ol {
-    list-style: upper-roman;
-}
+/* span{
+    background-color: yellowgreen;
+} */
 
-ul{
-    /* list-style: decimal-leading-zero; */
-    text-align: center;
-    /* list-style-position: inside; */
-    /* list-style-image: url(./img/html-logo.png); */
-    color: blue;
-    list-style: square inside; 
-    /* url(./img/html-logo.png) inside; */
-}
-ul li:nth-child(1) {
-    color: yellowgreen;
-}
-
-ul li::marker{
-    color: mediumvioletred;
-    font-size: 2em;
-    content: "subscribe>>";
-}
+/* .oppsite{
+    display: inline-block;
+    background-color: yellowgreen;
+    color: red;
+    padding: 4rem;
+    margin-top: 100px;
+} */
