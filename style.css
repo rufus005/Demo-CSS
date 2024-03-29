@@ -1,35 +1,27 @@
-*{
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-.container {
-    border: 5px double red;
-    border-top-width: 10px;
-    border-top-color: rgb(0, 230, 0);
-    width: 400px;
-    font-size: 1.5rem; 
+
+ol {
+    list-style: upper-roman;
+}
+
+ul{
+    /* list-style: decimal-leading-zero; */
     text-align: center;
-    /* margin: 0.5em;
-    margin-top: 1.5em;
-    margin-right: 2em;
-    margin-left: 2em; */
-    /* margin: 1.5em 2em 3em 4em; */
-    margin: 1.5em;
-    padding: 1.5em;
-    /* outline: 5px solid blueviolet;
-    outline-offset: 2px;
-} */
+    /* list-style-position: inside; */
+    /* list-style-image: url(./img/html-logo.png); */
+    color: blue;
+    list-style: square inside; 
+    /* url(./img/html-logo.png) inside; */
+}
+ul li:nth-child(1) {
+    color: yellowgreen;
 }
 
-/* font size 1st kodukrathala 1.5 rem means 24 because basic 16 px .5 8px 
-margin 0.5 12 px  */
-
-
-.circle
-{
-    border: 10px solid green;
-    width: 100px;
-    height: 100%;
-    border-radius: 25px;
+ul li::marker{
+    color: mediumvioletred;
+    font-size: 2em;
+    content: "subscribe>>";
 }
