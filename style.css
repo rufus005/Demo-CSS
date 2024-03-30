@@ -1,59 +1,51 @@
-body{
-    font-size: 1.5rem;
-}
-section{
-    height: 100vh;
-}
-
-.blue{
-    background-color: blue;
-}
-.red{
-    background-color: red;
-}
-.green{
-background-color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header, footer{
-    color: whitesmoke;
-    /* font-size: 3rem; */
-    text-align: center;
-    height: 86px;
-    padding: 1rem;
+body {
+  min-height: 100vh;
+  padding: 20px;
 }
 
-header {
-    position: sticky;
-    top:0;
-    font-size: 4rem;
+.container {
+  max-width: 800px;
+  height: 800px;
+  margin-inline: auto;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row;
+    flex-wrap: wrap; */
+  flex-flow: row wrap;
+  align-content: space-evenly;
 }
 
-footer{
-    position: sticky;
-    bottom: 0;
-    font-size: 2rem;
-    background-color: black;
-    color: white;
-    
+.box {
+  /* min-width: 100px; */
+  height: 100px;
+  background-color: black;
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: aliceblue;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+    align-items: center;
+
+/* flex-basis: 100px;
+flex-grow: 1; */
+/* shortcut */
+flex: 1 2 200px;
+
 }
 
-a{
-    color: azure;
-}
-
-button{
-    background-color: aqua;
-    font-size: inherit;
-    position: fixed;
-    top: 30vh;
-    left: 0;
-}
-
-.youtube{
-    background-color: aqua;
-    font-size: inherit;
-    position: fixed;
-    top: 40vh;
-    left: 0;
+.box:nth-child(2){
+    /* flex-grow: 2; */
+    flex: 2 2 100px;
+    /* order: 1;      its work these number 0 1 -1 */
 }

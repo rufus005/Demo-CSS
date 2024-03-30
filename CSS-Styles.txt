@@ -1,0 +1,482 @@
+ 
+ basics
+  wht is the programming language ?
+    * machine understable language 
+    * to give to instruction to the computer
+	* machine reduces the human's effect
+	
+javascript 
+	variables
+	
+	
+	
+	Css tutorial
+	
+	practice purpoe
+	
+	/* p {
+    color: blue;
+    font-size: 64px;
+} */
+
+*{
+    font-family: monospace;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.gray {
+    color: blue;
+}
+
+#second {
+ color: aqua;   
+}
+
+.highlight {
+    background-color: red;
+}
+
+units and valsues
+
+header {
+    width: 50%;
+}
+
+h1 {
+    border: 2px dashed black;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.7em;
+}
+
+/* rem vanthu root element la irunthu double
+em vanthu parent element la irunthu double */
+
+body {
+    height: 100%;
+}
+
+main{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+    width: 50ch;
+}
+
+
+    BOX MODEL
+	
+	*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 5px double red;
+    border-top-width: 10px;
+    border-top-color: rgb(0, 230, 0);
+    width: 400px;
+    font-size: 1.5rem; 
+    text-align: center;
+    /* margin: 0.5em;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-left: 2em; */
+    /* margin: 1.5em 2em 3em 4em; */
+    margin: 1.5em;
+    padding: 1.5em;
+    /* outline: 5px solid blueviolet;
+    outline-offset: 2px;
+} */
+}
+
+/* font size 1st kodukrathala 1.5 rem means 24 because basic 16 px .5 8px 
+margin 0.5 12 px  */
+
+
+.circle
+{
+    border: 10px solid green;
+    width: 100px;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 2em auto;
+    outline: 5px dashed black;
+    outline-offset: 10px;
+}
+
+
+   6. TYPOGRAHY
+   
+   body {
+    padding: 10%;
+    font-size: 1.2rem;
+}
+
+/* input, button {
+    font-size: inherit;
+} */
+
+p{
+    /* text-decoration: ;   */
+    /* text-transform:initial;
+    text-align:right; */
+    text-indent: 2em;
+    /* font-style: italic;
+    line-height: 1.2em; */
+    word-spacing: 0.2em;
+    /* font-family: "Roboto", sans-serif; */
+
+}
+
+		07 : STYLING LINKS
+		
+		body {
+    padding: 10%;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited {
+    color: rgba(99, 103, 101, 0);
+}
+a:hover, a:focus {
+    color: greenyellow;
+
+}
+
+                            
+a:active {
+    color: brown;
+}
+
+		08 ;pseudo elements
+	
+	body {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+ul{
+    /* list-style: decimal-leading-zero; */
+    text-align: center;
+    /* list-style-position: inside; */
+    /* list-style-image: url(./img/html-logo.png); */
+    color: blue;
+    list-style: square inside; 
+    /* url(./img/html-logo.png) inside; */
+}
+ul li:nth-child(1) {
+    color: yellowgreen;
+}
+
+ul li::marker{
+    color: mediumvioletred;
+    font-size: 2em;
+    content: "subscribe>>";
+}
+
+		10:Display
+		
+		*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+body{
+    /* background-color: aqua; */
+    font-size: 2.5rem;
+}
+
+/* p{
+    background-color: gray;
+    width: 50%;
+    margin: 100px 50px;
+    
+} */
+
+/* span{
+    background-color: yellowgreen;
+} */
+
+/* .oppsite{
+    display: inline-block;
+    background-color: yellowgreen;
+    color: red;
+    padding: 4rem;
+    margin-top: 100px;
+} */
+ul
+
+li {
+    display: inline-block;
+    margin-inline: 1rem;
+}
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    /* background-color: aqua; */
+    font-size: 2rem;
+}
+
+ul{
+ list-style-type: none;
+ margin: 0;
+ background-color: rgb(11, 14, 14);
+ padding: 1rem;
+ text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin: 0.5rem;
+
+    }
+
+    li a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    li a:hover, li a:focus{
+        text-decoration: underline;
+    }
+	
+		11 CSS-FLOAT
+		
+		/* *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} */
+
+body{
+    font-size: 1.5rem;
+    text-indent: 1rem;
+}
+
+.block{
+    background-color: #000;
+    color: #fff;
+    width: 30vw;
+    height: 30vw;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 2em;
+}
+
+.right {
+    float: right;
+    margin-left: 2em;
+}
+.clear{
+    clear: both;
+}
+
+section{
+    background-color: bisque;
+    border: 2px solid black;
+    /* overflow: auto; */    /*old */
+    display: flow-root;    /*new */ 
+    padding: 1rem;
+}
+
+		12.  Columns
+		
+		body{
+    font-size:1.5rem;
+}
+
+.column{
+    /* column-count: 2;
+    column-width: 200px; */
+    columns: 3 250px;
+    column-rule: 4px  solid #b73d3d;
+    /* column-gap: 3rem; */
+}
+
+.column p{
+    margin-top: 0;
+}
+
+.column h2{
+    background-color: mediumspringgreen;
+    color:  white;
+    padding: 3rem;
+    margin: 0;
+    break-before:column;
+}
+
+.column .quote {
+    color: #b73d3d;
+    text-align: center;
+    font-size: 3rem;
+    column-span: all;
+}
+
+.nowrap{
+    white-space: nowrap;i
+}
+		
+	13 : POSOTIONS
+	
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+.outer-container{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+}
+
+.inner-container {
+    border: 2px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    /* position: relative; */
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid green; */
+    color: white;
+    padding: 1rem;
+
+}
+
+.absolute {
+    background-color:blueviolet;
+    position:absolute;
+    /* top: 100px;
+    left: 50px; */
+    top: 0;
+    left: 0;
+}
+
+.relative {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed {
+    background-color: red;
+    position: fixed;
+    top: 100px;
+    left: 200px;
+    
+}
+
+.sticky {
+    background-color: black;
+    position: sticky;
+    top: 100px;
+}
+
+		exmple of position 
+		
+		html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.5rem;
+}
+section{
+    height: 100vh;
+}
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+background-color: green;
+}
+
+header, footer{
+    color: whitesmoke;
+    /* font-size: 3rem; */
+    text-align: center;
+    height: 86px;
+    padding: 1rem;
+}
+
+header {
+    position: sticky;
+    top:0;
+    font-size: 4rem;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    
+}
+
+a{
+    color: azure;
+}
+
+button{
+    background-color: aqua;
+    font-size: inherit;
+    position: fixed;
+    top: 30vh;
+    left: 0;
+    z-index: 1;
+
+}
+
+.youtube{
+    background-color: aqua;
+    font-size: inherit;
+    position: fixed;
+    top: 40vh;
+    left: 0;
+    z-index: 1;
+}
+
+		14- CSS FLEX
+		
+	
