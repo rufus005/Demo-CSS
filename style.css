@@ -1,26 +1,39 @@
-/* *{ */
-    /* margin: 0; */
-    /* padding: 0; */
-/* } */
+/* *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} */
+
 body{
-    /* background-color: aqua; */
-    font-size: 2.5rem;
-}
-p{
-    background-color: gray;
-    width: 50%;
-    margin: 100px 50px;
-    
+    font-size: 1.5rem;
+    text-indent: 1rem;
 }
 
-/* span{
-    background-color: yellowgreen;
-} */
+.block{
+    background-color: #000;
+    color: #fff;
+    width: 30vw;
+    height: 30vw;
+    padding: 1rem;
+}
 
-/* .oppsite{
-    display: inline-block;
-    background-color: yellowgreen;
-    color: red;
-    padding: 4rem;
-    margin-top: 100px;
-} */
+.left {
+    float: left;
+    margin-right: 2em;
+}
+
+.right {
+    float: right;
+    margin-left: 2em;
+}
+.clear{
+    clear: both;
+}
+
+section{
+    background-color: bisque;
+    border: 2px solid black;
+    /* overflow: auto; */    /*old */
+    display: flow-root;    /*new */ 
+    padding: 1rem;
+}
