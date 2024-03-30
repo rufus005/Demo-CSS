@@ -1,51 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+body{
     font-size: 1.5rem;
-    min-height: 200vh;
 }
-.outer-container{
-    border: 3px dashed black;
-    width: 75vw;
-    height: 85vh;
-    margin: 40px auto;
-    position: relative;
+section{
+    height: 100vh;
 }
 
-.inner-container {
-    border: 2px solid blue;
-    width: 40vw;
-    height: 50vh;
-    margin: 200px auto;
-    /* position: relative; */
-
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+background-color: green;
 }
 
-.box {
-    width: 150px;
-    height: 150px;
-    /* border: 2px solid green; */
-    color: white;
+header, footer{
+    color: whitesmoke;
+    /* font-size: 3rem; */
+    text-align: center;
+    height: 86px;
     padding: 1rem;
-
 }
 
-.absolute {
-    background-color:blueviolet;
-    position:absolute;
-    /* top: 100px;
-    left: 50px; */
-    top: 0;
+header {
+    position: sticky;
+    top:0;
+    font-size: 4rem;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    
+}
+
+a{
+    color: azure;
+}
+
+button{
+    background-color: aqua;
+    font-size: inherit;
+    position: fixed;
+    top: 30vh;
     left: 0;
 }
 
-.relative {
-    background-color: yellow;
-    position: relative;
-    top: 100px;
-    left: 100px;
+.youtube{
+    background-color: aqua;
+    font-size: inherit;
+    position: fixed;
+    top: 40vh;
+    left: 0;
 }
