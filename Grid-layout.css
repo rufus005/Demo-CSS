@@ -37,6 +37,7 @@ body {
   padding: 0.5rem;
 }
 .container {
+  grid-area: mn;
   min-height: 200px;
   display: grid;
   /* grid-auto-flow: column; */

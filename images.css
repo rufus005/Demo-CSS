@@ -1,0 +1,69 @@
+/* begin reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.hero {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  background-color: rgb(238, 255, 255);
+  background-image: url(img/images.jpeg);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 400%;
+  color: rgb(48, 148, 236);
+  text-shadow: 2px 2px 5px black;
+  background-color: hsla(135, 14%, 11%, 0.463);
+}
+
+/* End reset */
+
+/* Begin Utility Classes */
+
+.profile-pic {
+  width: 35%;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  border: 2px double green;
+  border-radius: 50%;
+}
+
+/* .example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 2px solid red;
+}
+
+.example img{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+} */
