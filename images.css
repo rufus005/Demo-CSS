@@ -7,6 +7,8 @@
 
 body {
   min-height: 100vh;
+background-color: aliceblue;
+background-image: linear-gradient(to left,rgb(123, 123, 233),pink,rgb(208, 215, 208));
 }
 
 img {
@@ -67,3 +69,13 @@ h1 {
     height: auto;
     border-radius: 50%;
 } */
+
+.clip{
+    font-size: 10rem;
+    font-weight: 800;
+    background-image: url(/img/store.jpg);
+    background-clip: text;
+    /* color: transparent; */
+    color: hsla(90, 6%, 38%, 0.173);
+    background-position: bottom;
+}
